@@ -1,0 +1,20 @@
+/* GENERICS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfif::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+header{
+    height: 100px;
+    background-color: pink;
+}
